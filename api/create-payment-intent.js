@@ -5,7 +5,8 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 // Allowed origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://new-gozolt.vercel.app"
+  "https://new-gozolt.vercel.app",
+  "https://www.rentnrides.eu"
 ];
 
 export default async function handler(req, res) {
